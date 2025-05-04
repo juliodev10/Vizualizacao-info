@@ -7,7 +7,7 @@ except FileNotFoundError:
     print("Arquivo não encontrado. Verifique o nome e o caminho do arquivo.")
     exit()
 # Extrai dados para o gráfico
-estados = d['Estado']
+estados = d['Região']
 densidade = d['Densidade']
 
 # Cria o gráfico de pizza
