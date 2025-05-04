@@ -2,7 +2,7 @@ import pandas as pd
 import  matplotlib.pyplot as plt
 # Carregar dados de um CSV
 try:
-    d = pd.read_csv('dpizza.csv', encoding='utf-8')  
+    d = pd.read_csv('densidade.csv', encoding='utf-8')  
 except FileNotFoundError:
     print("Arquivo não encontrado. Verifique o nome e o caminho do arquivo.")
     exit()
